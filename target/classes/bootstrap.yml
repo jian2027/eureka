@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: eureka-server-node-1
+      uri: http://localhost:8081
+      profile: test
+      label: master
